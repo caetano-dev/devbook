@@ -9,3 +9,8 @@ import (
 func LoadLoginPage(w http.ResponseWriter, r *http.Request) {
 	utils.ExecuteTemplate(w, "login.html", nil)
 }
+
+//LoadSignUpPage loads the signup page
+func LoadSignUpPage(w http.ResponseWriter, r *http.Request) {
+	utils.ExecuteTemplate(w, "signup.html", nil)
+}
