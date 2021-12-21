@@ -18,6 +18,7 @@ function createUser(event){
             email: $('#email').val(),
             password: $('#password').val()
         },
-    });
-
+	
+	})
 }
+
